@@ -1,13 +1,18 @@
 # study
-# 一级标题
-
+# 一级标题123
 ## 二级标题
 
-+ PHPstorm
-+ SVN
-+ COM
-+ mk语法
++ PHPStorm
++ TortoiseSVN
++ composer
++ git https://github.com/ 
+
+ 
++ markdown 语法
 
 ```PHP
-	echo "hello";
+echo phpinfo();
 ```
+
+
+
