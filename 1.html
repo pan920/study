@@ -1,0 +1,24 @@
+<script>
+    let arr5 = [1,2,3,1,1]
+    console.log(arr5)
+    let arrSet = new Set(arr5)
+    console.log(arrSet)
+    // 输出 类数组对象
+    let ar = [...new Set(arr5)]
+    console.log(ar)
+
+    // 
+    // let arr2 = [1, 2, 3, 4, 1, 'a',{name:'88'}]
+    let arr2 = [
+        {name:'pan1',age:18},
+        { name: 'pan', age: 18 },
+        { name: 'pan1', age: 18 },
+        { name: 'pan', age: 18 },
+    ]
+      let aa =  arr2.filter(item => {
+            return item.name == 'pan1'
+        })
+        aa[0].name = 'ddd'
+        console.log(aa)
+        console.log(arr2)
+</script>
